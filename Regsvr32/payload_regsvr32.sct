@@ -6,7 +6,7 @@ classid="{F0001111-0000-0000-0000-0000FEEDACDC}" >
 <script language="JScript">
  
 <![CDATA[   
-var c= 'calender.exe'; 
+var c= 'calendar.exe'; 
 new ActiveXObject("WScript.Shell").Run(c,0);
 ]]>
  
